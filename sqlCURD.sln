@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLgNerator.sqlCURD.Common", "SQLgNerator.sqlCURD.Common\SQLgNerator.sqlCURD.Common.csproj", "{421800EB-1029-4A47-B434-D617124243F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLgNerator.sqlCURD.Shell", "SQLgNerator.sqlCURD.Shell\SQLgNerator.sqlCURD.Shell.csproj", "{0BA61DCC-3A65-4841-864E-23D665D092C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{421800EB-1029-4A47-B434-D617124243F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{421800EB-1029-4A47-B434-D617124243F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{421800EB-1029-4A47-B434-D617124243F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA61DCC-3A65-4841-864E-23D665D092C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA61DCC-3A65-4841-864E-23D665D092C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA61DCC-3A65-4841-864E-23D665D092C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA61DCC-3A65-4841-864E-23D665D092C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
