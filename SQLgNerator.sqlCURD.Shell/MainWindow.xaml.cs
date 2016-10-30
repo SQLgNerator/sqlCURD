@@ -22,6 +22,7 @@ namespace SQLgNerator.sqlCURD.Shell
     {
         public MainWindow()
         {
+            // testing
             InitializeComponent();
         }
     }
