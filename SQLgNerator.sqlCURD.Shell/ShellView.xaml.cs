@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLgNerator.sqlCURD.Shell.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,11 +19,13 @@ namespace SQLgNerator.sqlCURD.Shell
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class ShellView : Window
+    public partial class ShellView : Window, IShell
     {
+        /// <summary>
+        /// Initializes a new instance of the ShellView class.
+        /// </summary>
         public ShellView()
         {
-            // testing
             InitializeComponent();
         }
     }

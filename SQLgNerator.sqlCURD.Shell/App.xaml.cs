@@ -16,6 +16,10 @@ namespace SQLgNerator.sqlCURD.Shell
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
+
+            // create the bootstrapper to start the application.
+            ApplicaitionBootStrapper bootstrapper = new ApplicaitionBootStrapper();
+            bootstrapper.Run();
         }
     }
 }

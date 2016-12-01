@@ -14,7 +14,7 @@ namespace SQLgNerator.sqlCURD.Interfaces.Localisation
         /// <summary>
         /// Gets the resource key value with the specified resource key from the resource file.
         /// </summary>
-        /// <param name="resourceKey">The resource key to be fetched.</param>
+        /// <param name="resourceKey">The resource key to be fetched.</param>E:\Projects\Live\sqlCURD\SQLgNerator.sqlCURD.Shell\App.xaml
         /// <returns>The corresponding value of the specified resource key.</returns>
         string this[string resourceKey] { get; }
 
